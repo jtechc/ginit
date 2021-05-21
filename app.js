@@ -18,7 +18,7 @@ clear();
 
 console.log(
   chalk.cyanBright(
-    figlet.textSync('Ginit', { horizontalLayout: 'full' })
+    figlet.textSync('Ginit Revamped', { horizontalLayout: 'full' })
   )
 );
 
