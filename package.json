@@ -17,6 +17,7 @@
   "dependencies": {
     "@octokit/auth-token": "^2.4.5",
     "@octokit/rest": "^18.5.3",
+    "cfonts": "^2.9.2",
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
     "cli-spinners": "^2.6.0",

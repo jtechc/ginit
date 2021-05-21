@@ -1,17 +1,16 @@
 import chalk from 'chalk';
 import clear from 'clear';
-import figlet from 'figlet';
-import { directoryExists } from './lib/files.js';
-import { getStoredGitHubToken, getPersonalAccessToken, gitHubAuth } from './lib/github.js';
-import { createRemoteRepo, createGitIgnore, setupRepo } from './lib/repo.js';
+import CFonts from 'cfonts';
+import { directoryExists } from './bin/files.js';
+import { getStoredGitHubToken, getPersonalAccessToken, gitHubAuth } from './bin/github.js';
+import { createRemoteRepo, createGitIgnore, setupRepo } from './bin/repo.js';
 
 clear();
 
-console.log(
-  chalk.cyanBright(
-    figlet.textSync('Ginit Revamped', { horizontalLayout: 'full' })
-  )
-);
+CFonts.say('Ginit|Revamped', {
+  font: 'chrome',
+  colors: ['cyanBright', 'cyan']
+});
 
 if (directoryExists('.git')) {
   console.log(chalk.red('Already a git repository here!'));
