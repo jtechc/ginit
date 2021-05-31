@@ -8,7 +8,7 @@
 > 
 > Username/password authentication deprecated, so a warning was added.
 >
-> Many modules and packages removed/replaced in favor of recently updated/more effiecient variants.
+> Many modules and packages removed/replaced in favor of recently updated/more efficient variants.
 
 `This project was solely for personal learning experience and practice and is in no means represented as a product.`
 
